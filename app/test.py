@@ -12,7 +12,6 @@
 """
 
 from app import db, models
-from app.models import User
 
 if __name__ == '__main__':
     u = models.User(nickname='john', email='john@email.com')
